@@ -1,0 +1,30 @@
+@import url('/lesson_3/css/zero.css');
+img{
+	width: 200px;
+	height: 200px;
+}
+h2{
+	color: rgb(179, 87, 233);
+}
+nav h5{
+	color: rgb(166, 255, 0);
+}
+.title > li {
+	color: rgb(0, 255, 55);
+}
+.first-paragraph + p {
+	color: rgb(25, 0, 255);
+}
+.text ~ p {
+	color: gold;
+}
+[class*="__snake-element"]{
+	color: grey;
+}
+.deer,
+.cranes{
+	color: rgb(90, 223, 223);
+}
+.footer .first-footer-paragrahp{
+	color: rgb(245, 212, 212);
+}
