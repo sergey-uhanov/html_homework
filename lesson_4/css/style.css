@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap'); /*  подключение через плагин*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500;700&display=swap');
+
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Garamond";
+	src: url("../fonts/Garamond.woff2") format("woff2"), url("../fonts/Garamond.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Garamond";
+	src: url("../fonts/Garamond-Bold.woff2") format("woff2"), url("../fonts/Garamond-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+	font-family: "Garamond","Circular Std", sans-serif;
+}
+h1{
+	font-size: 44px;
+	font-weight: 700;
+	color: rgba(105, 70, 70, 0.945);
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 2;
+	letter-spacing: 5px;
+	word-spacing: 15px;
+	white-space: nowrap;
+	text-shadow:-7px -7px 4px  hsl(39, 45%, 62%),
+             -8px -8px 6px  hsl(59, 76%, 75%);
+}
+p{
+	font-weight: 400;
+	color: rgba(87, 87, 87, 0.74);
+	text-align: justify;
+	font-size: 22px;
+	line-height: 1.6;
+text-shadow: 3px 3px 10px rgb(107, 91, 197);
+text-indent: 20px;
+}
+h5{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 2;
+	color: rgba(105, 70, 70, 0.945);}
+
+	a{
+		color: rgb(240, 69, 69);
+		text-shadow: 3px 3px 10px rgb(0, 238, 0);
+	}
