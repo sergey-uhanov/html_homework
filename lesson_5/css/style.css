@@ -1,0 +1,37 @@
+body{
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	
+}
+.container{
+	max-width: 816px;
+	margin: 0 auto;
+}
+.title{
+	font-weight: 700;
+	font-size: 25px;
+line-height: 1.6;
+color: #212529;
+margin-bottom: 40px;
+}
+p{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #6C757D;
+}
+.text{
+	display: inline-block;
+	margin-bottom: 23px;
+}
+.image-block{
+	max-width: 1240px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+.girl-img{
+	margin-right: 23px;
+}
+.text-after{
+	margin-bottom: 80px;
+}
