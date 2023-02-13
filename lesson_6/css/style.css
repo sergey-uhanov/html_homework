@@ -1,0 +1,48 @@
+body{
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 25px;
+color: #6C757D;
+}
+.container{
+	max-width: 816px;
+}
+.img-container{
+max-width: 1240px;
+margin: 0 auto;
+font-size: 0px;
+}
+.text-block{
+	margin: 0 auto 80px;
+}
+.baner{
+width: 100%;
+}
+.title{
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 25px;
+	color: #212529;
+	max-width: 400px;
+}
+.text{
+	margin-top: 40px;
+}
+p{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.img-block{
+	margin-bottom: 80px;
+}
+.other-title{
+	max-width: 605px;
+}
+.left-img{
+	margin-right: 30px;
+}
+.img-baner{
+	margin: 100px 0;
+}
