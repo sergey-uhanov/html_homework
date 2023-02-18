@@ -133,6 +133,10 @@
   margin-right: 10px;
 }
 .list-rhombus span {
+  display: inline-block;
+  transform: rotate(45deg);
+}
+.rhombus {
   background-color: blue;
   display: inline-block;
   width: 25px;
@@ -142,11 +146,9 @@
   text-align: center;
   padding-top: 5px;
   margin-right: 10px;
-  transform: rotate(45deg);
-}
-.list-rhombus p {
   transform: rotate(-45deg);
 }
+
 .many-lists ul {
   display: inline-block;
   min-width: 350px;
