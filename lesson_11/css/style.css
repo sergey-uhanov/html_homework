@@ -1,0 +1,226 @@
+body {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background: #e5e5e5;
+}
+.wrapper {
+}
+.wrapper__header {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header__logo {
+  margin-right: 45px;
+  /* padding: 30px 0; */
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  margin-right: 35px;
+  position: relative;
+}
+.menu__item:first-child {
+  background: #f4f7ff;
+  margin-right: 45px;
+  padding: 9px 45px 9px 21px;
+  border-radius: 5px;
+  position: relative;
+}
+.menu__item:first-child::after {
+  content: url("../img/row.svg");
+  position: absolute;
+  right: 13px;
+  top: 8px;
+}
+.header__actions {
+  display: flex;
+}
+.action {
+  position: relative;
+  right: 7px;
+}
+.action__item {
+  position: relative;
+}
+.action__item:not(:last-child) {
+  margin-right: 20px;
+}
+.action__quantity {
+  display: flex;
+  background: #3056d3;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -6px;
+  left: 16px;
+  color: #fff;
+  font-size: 11px;
+}
+.sub-menu {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  padding-top: 40px;
+  opacity: 0;
+  visibility: hidden;
+}
+.sub-menu__list {
+  /* position: absolute;
+  top: 85px;
+  left: 0px; */
+  position: relative;
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #637381;
+  padding: 22px 0 22px 22px;
+  min-width: 180px;
+  border-radius: 5px;
+}
+.sub-menu__list::before {
+  content: "";
+  position: absolute;
+  left: 23px;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-radius: 3px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+.sub-menu__item {
+  position: relative;
+}
+.sub-menu__item a:hover {
+  color: #3056d3;
+}
+
+.sub-menu__item:not(:last-child) {
+  margin-bottom: 13px;
+}
+.menu__item:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s;
+}
+.menu__item:hover::after {
+  transform: rotate(180deg);
+  transition: all 0.3s;
+}
+.sub-content {
+  /* display: inline-block; */
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  min-width: 652px;
+  opacity: 0;
+  visibility: hidden;
+}
+.sub-menu__item:hover .sub-content {
+  opacity: 1;
+  visibility: visible;
+}
+.sub-content__list {
+  /* display: inline-block; */
+}
+.sub-content {
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+}
+.sub-content__list:first-child {
+  /* display: inline-block; */
+  margin-right: 80px;
+}
+.sub-content__item {
+}
+.sub-content__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.sub-content__item:first-child {
+  font-size: 16px;
+  line-height: 24px;
+  color: #212b36;
+  margin-bottom: 20px;
+}
+.sub-content__banner {
+  display: inline-block;
+  height: 248px;
+  width: 220px;
+  background: url("../img/1.png");
+  position: absolute;
+  right: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.22);
+  text-align: center;
+  padding-top: 65px;
+}
+.sub-content__banner span {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.sub-content__blue-button {
+  display: inline-block;
+  margin-top: 21px;
+  background: blue;
+  padding: 5px 13px 7px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.row::after {
+  content: url("../img/row.svg");
+  display: inline-block;
+  transform: rotate(-90deg);
+  position: relative;
+  left: 50px;
+}
+.row:hover.row::after {
+  content: url("../img/row2.svg");
+  transform: rotate(0deg);
+}
+.sub-menu_products {
+  padding-top: 50px;
+  top: 23px;
+}
+.menu__item_row {
+  position: relative;
+  top: 10px;
+}
+.menu__item:hover .menu__item_row {
+  transform: rotate(180deg);
+}
+.menu__item:hover {
+  color: #3056d3;
+}
+.sub-content__blue-button:hover {
+  background: #e5e5e5;
+}
