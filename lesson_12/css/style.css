@@ -1,0 +1,165 @@
+.wrapper-body-car{
+
+
+}
+.car-body {
+width: 700px;
+height: 150px;
+background: rgb(121,124,129);
+background: linear-gradient(0deg, rgba(121,124,129,1) 34%, rgba(66,75,92,1) 74%);
+
+	position: absolute;
+	top: 500px;
+	left: 200px;
+
+	position: relative;
+}
+.silhouette-body{
+	width: 0;
+	height: 0;
+	border-top: 45px solid #fff; 
+	border-right: 700px solid transparent;	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.roof{
+	width: 0;
+	height: 0;
+	border-left: 266px solid transparent;
+	border-right: 437px solid transparent;
+	border-bottom: 100px solid #bac3c8;
+	position: absolute;
+	top: -55px;
+	left: -6px;
+
+	transform-origin:top left;
+transform: rotate(-3.5deg);
+}
+.window{
+	width: 0;
+	height: 0;
+	border-left: 231px solid transparent;
+	border-right: 365px solid transparent;
+	border-bottom: 81px solid #172136;
+	position: absolute;
+	top: 12px;
+	left: -231px;
+}
+.plug{
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 211px solid #bac3c8;
+	border-bottom: 36px solid transparent;
+	position: absolute;
+	top: 56px;
+	left: 193px;
+	transform: rotate(9.5deg);
+}
+.while-arches{
+	width: 150px;
+	height: 82.5px;
+	background: #000;
+	position: absolute;
+	top: 110px;
+	left: 50px;
+	transform: rotate(90deg);
+}
+.while-arches::before{
+	content: "";
+	position: absolute;
+	top: -37.5px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 37.5px solid #000;
+}
+.while-arches::after{
+	content: "";
+	position: absolute;
+	bottom: -37.5px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 37.5px solid ;
+}
+.while-arches_back{
+	left: 460px;
+}
+.plug-while-arches{
+	width: 700px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	top: 150px;
+}
+.while{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: #11151e;
+	position: absolute;
+	top: 86px;
+	left: 64px;
+	border: 10px dashed #7b7e83;
+}
+.while_back{
+	left: 477px;
+}
+.plug_front{
+	left: -236px;
+	top: 34px;
+	transform: rotate(175deg);
+	border-top: 13px solid transparent;
+	border-left: 163px solid #0e192e;
+	border-bottom: 41px solid transparent;
+}
+.bumper{
+	border-bottom: 43px solid #7d8386;
+	border-left: 34px solid transparent;
+	border-right: 23px solid transparent;
+	height: 0;
+	width: 48px;
+	position: absolute;
+	top: 77px;
+	left: -74px;
+	transform: rotate(-90deg);
+}
+.front-light {
+
+}
+.front-bulb{
+	position: absolute;
+	top: 71px;
+	left: -45px;
+	height: 10px;
+	width: 20px;
+	background: yellow;
+}
+.back-bulb{
+	position: absolute;
+	top: 28px;
+	left: 680px;
+	height: 10px;
+	width: 20px;
+	background: red;
+}
+
+
+
+
+
+
+.box {
+	height: 10px;
+	width: 40px;
+	position: absolute;
+	top: 36px;
+	left: 279px;
+	border:1px solid hsla(220, 16%, 22%, 0.582) ;
+}
