@@ -1,0 +1,345 @@
+body {
+  font-family: "Inter";
+  font-style: normal;
+}
+.wrapper {
+}
+.wrapper__container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header {
+}
+.header__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #212b36;
+}
+.personal-data {
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+.personal-data__form-line {
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  width: 336px;
+  height: 54px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #637381;
+}
+.personal-data__form-input {
+  width: 100%;
+  height: 100%;
+  padding-left: 25px;
+}
+.list {
+  width: 336px;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #637381;
+  padding-left: 25px;
+}
+.personal-data__input {
+  width: 100%;
+  height: 100px;
+}
+.additional-information {
+  min-width: 700px;
+  height: 180px;
+  margin-bottom: 35px;
+}
+.billing-details {
+  margin-bottom: 30px;
+}
+.personal-data__form-input_text-area {
+  padding-top: 25px;
+}
+
+.personal-data__form-input:focus-visible {
+  outline: 1px solid #1b72ce;
+  border-radius: 5px;
+}
+.list:focus-visible {
+  outline: 1px solid #1b72ce;
+  border-radius: 5px;
+}
+.personal-data__checkbox {
+}
+.checkbox {
+}
+.checkbox__checkbox-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #637381;
+  position: relative;
+}
+.checkbox__checkbox-item:not(:last-child) {
+  margin-bottom: 25px;
+  position: relative;
+}
+.checkbox__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.checkbox__label {
+}
+.checkbox__text {
+}
+.checkbox__label::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 0.7px solid #e7e7e7;
+  border-radius: 4px;
+  position: relative;
+  top: 5px;
+  margin-right: 14px;
+}
+.checkbox__input:checked + .checkbox__label::before {
+  background: url("/img/1.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 7px;
+}
+.personal-data_margin-bottom {
+  margin-bottom: 55px;
+}
+
+.form-discount-coupon {
+  max-width: 480px;
+}
+.form-discount-coupon__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #212b36;
+  margin-bottom: 25px;
+}
+.form-discount-coupon__input-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.form-discount-coupon__wrapper-input {
+  height: 48px;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+.form-discount-coupon__input {
+  width: 100%;
+  height: 100%;
+}
+.form-discount-coupon__wrapper-button {
+}
+.form-discount-coupon__button {
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 5px;
+  background-color: #212b36;
+}
+
+.form-discount-coupon__input:focus-visible {
+  outline: 1px solid #1b72ce;
+  border-radius: 5px;
+}
+
+.login-block {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 612px;
+}
+.login-block span {
+  display: inline;
+  color: red;
+}
+.title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 68px;
+  color: #000;
+}
+.login-block__title {
+  margin-top: 46px;
+}
+
+.login-block__form-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+.login-block__form-input:last-child {
+  margin-bottom: 0;
+}
+.login-block__lable-text-input {
+  font-size: 16px;
+  line-height: 20px;
+  color: #3f3f3f;
+}
+.login-block__wrapper-text-input {
+  width: 451px;
+  height: 44px;
+}
+.login-block__text-input {
+  border: 1px solid #000;
+  width: 100%;
+  height: 100%;
+  padding-left: 16px;
+}
+.login-block__form-input_right-side {
+  justify-content: flex-end;
+}
+.login-block__wrapper-text-input option {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.login-block__signature {
+  font-size: 14px;
+  line-height: 20px;
+  color: #828282;
+  margin-bottom: 14px;
+}
+.login-block__button-block {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 75px;
+}
+.login-block__button-wrapper {
+  margin-right: 25px;
+}
+.black-btn {
+  padding: 0 40px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20.75px;
+}
+.login-block__recovery-password {
+}
+.login-block__link-recovery-password {
+  font-size: 14px;
+  line-height: 20px;
+  color: #0f6db1;
+}
+.login-block__button-block::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -36px;
+  left: 0;
+  background: #c4c4c4;
+}
+
+.login-block__button-block::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -36px;
+  left: 0;
+  background: #c4c4c4;
+}
+.title_margin {
+  margin-bottom: 40px;
+}
+.login-block__radio-input-block {
+  border-top: 1px solid #c4c4c4;
+  margin-bottom: 24px;
+}
+.login-block__radio-input-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  max-width: 380px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3f3f3f;
+  position: relative;
+}
+.login-block__radio-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+.radio-label::before {
+  display: inline-block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 3px solid #828282;
+  border-radius: 50%;
+  position: relative;
+  top: 2px;
+  left: -23px;
+}
+.login-block__description-block {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+.login-block__description {
+}
+.login-block__choice-prices {
+  max-width: 180px;
+  font-weight: bold;
+}
+.login-block__border {
+}
+.login-block__border::after {
+  content: "";
+  width: 443px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #c4c4c4;
+}
+.login-block__choice-prices label {
+  margin-left: 23px;
+}
+.login-block__radio-input:checked + .radio-label::before {
+  border: 5px solid #000000;
+}
+.login-block__btn-transition {
+  display: flex;
+  justify-content: space-between;
+}
+.black-btn {
+}
+.login-block__back {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #828282;
+  padding: 15px;
+}
